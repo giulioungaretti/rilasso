@@ -19,7 +19,7 @@ hi Question       cterm=standout          ctermfg=NONE
 hi StatusLine     cterm=bold,reverse      ctermfg=NONE
 hi StatusLineNC   cterm=reverse           ctermfg=NONE
 hi Title          cterm=bold              ctermfg=NONE
-hi Visual         cterm=reverse           ctermfg=NONE
+hi Visual         cterm=None              ctermfg=0
 hi VisualNOS      cterm=bold,underline    ctermfg=NONE
 hi WarningMsg     cterm=standout          ctermfg=NONE
 hi WildMenu       cterm=standout          ctermfg=NONE
