@@ -27,6 +27,7 @@ hi Folded         cterm=NONE              ctermfg=0
 hi FoldColumn     cterm=NONE              ctermfg=0
 hi Comment        cterm=italic            ctermfg=NONE
 hi Constant       cterm=italic            ctermfg=NONE
+hi Exception     cterm=NONE              ctermfg=NONE
 hi Special        cterm=bold              ctermfg=NONE
 hi Identifier     cterm=NONE              ctermfg=NONE
 hi Statement      cterm=NONE              ctermfg=NONE
