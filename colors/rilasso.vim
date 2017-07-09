@@ -7,7 +7,7 @@ syntax reset
 let g:colors_name="rilasso"
 " colors
 hi SpecialKey     cterm=bold              ctermfg=NONE
-hi NonText        cterm=bold              ctermfg=NONE
+hi NonText        cterm=None              ctermfg=NONE
 hi Directory      cterm=bold              ctermfg=NONE
 hi ErrorMsg       cterm=standout          ctermfg=NONE
 hi IncSearch      cterm=reverse           ctermfg=NONE
@@ -27,16 +27,17 @@ hi Folded         cterm=NONE              ctermfg=0
 hi FoldColumn     cterm=NONE              ctermfg=0
 hi Comment        cterm=italic            ctermfg=NONE
 hi Constant       cterm=italic            ctermfg=NONE
-hi Exception     cterm=NONE              ctermfg=NONE
-hi Special        cterm=bold              ctermfg=NONE
+hi Exception      cterm=NONE              ctermfg=NONE
+hi Special        cterm=None              ctermfg=NONE
 hi Identifier     cterm=NONE              ctermfg=NONE
 hi Statement      cterm=NONE              ctermfg=NONE
 hi PreProc        cterm=NONE              ctermfg=NONE
-hi Type           cterm=bold              ctermfg=NONE
+hi Type           cterm=None              ctermfg=NONE
 hi Underlined     cterm=underline         ctermfg=NONE
 hi Ignore         cterm=underline         ctermfg=NONE
 hi Error          cterm=reverse           ctermfg=0
 hi SpellBad       cterm=reverse,underline ctermfg=0
+hi SpellCap       cterm=reverse,underline         ctermfg=0
 hi Todo           cterm=NONE              ctermfg=0
 hi DiffAdd        cterm=Bold              ctermfg=green    ctermbg=0
 hi DiffChange     cterm=Bold              ctermfg=yellow   ctermbg=0
